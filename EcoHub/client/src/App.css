@@ -1,0 +1,72 @@
+.AppBar a {
+  color: inherit;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.AppBar button {
+  color: inherit;
+  margin-left: 12px;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+}
+
+.item-icon {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border-radius: 20px;
+  margin-block: 10px;
+}
+
+.item-title {
+  font-size: 14px;
+}
+
+.detailPage{
+  margin: 0;
+    padding: 0;
+}
+
+.btn.--primary-main{
+  background-color: #21b32d;
+  color: white;
+}
+
+.btn.--secondary-main{
+  background-color: #53143a;
+  color: white;
+}
+
+.btn.disabled{
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.btn.customButton {
+  background-color: #d1d5db;
+  color: #14532d; 
+  border: 3px solid #14532d;
+}
+
+.btn.customButton:hover {
+  background-color: yellowgreen;
+}
+
+/* Add this to your global stylesheet */
+.rbc-event {
+  display: block !important; /* Force block-level element */
+  margin-bottom: 10px; /* Optional: Adds some spacing between events */
+  min-height: 20px; /* Increase the minimum height of events */
+  max-height: 200px; /* Optionally, set a maximum height to prevent events from becoming too large */
+  padding: 10px; /* Adjust based on your needs */
+  margin: 5px; /* Adjust based on your needs */
+}
+.rbc-timeslot-group {
+  min-height: 100px !important; /* Adjust based on your needs */
+}
+

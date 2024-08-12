@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-main: #388e3c;
+  --secondary-main: #f4511e;
+  --background-color: #ffffff; /* White */
+  --text-color: #000000; /* Black */
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 2;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color); /* Apply background color */
+  color: var(--text-color); /* Apply text color */
+}
+
+/* Example usage of primary and secondary colors */
+.primary {
+  background-color: var(--primary-main);
+  color: var(--background-color);
+}
+
+.secondary {
+  background-color: var(--secondary-main);
+  color: var(--text-color);
+}
+
